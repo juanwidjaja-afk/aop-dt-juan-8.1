@@ -1,0 +1,291 @@
+/* Color Variables - Classic Boy Blue Palette */
+:root {
+  --navy-primary: #1e3a8a;
+  --royal-accent: #2563eb;
+  --header-bg: #dbeafe;
+  --avatar-bg: #93c5fd;
+  --page-bg: #f1f5f9;
+  --card-bg: #ffffff;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+body {
+  background-color: var(--page-bg);
+  display: flex;
+  justify-content: center;
+  padding: 30px 15px;
+  color: var(--navy-primary);
+}
+
+
+.juan-resume-sheet {
+  width: 100%;
+  max-width: 780px;
+  background-color: var(--card-bg);
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(30, 58, 138, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
+/* Top Header Banner */
+.juan-header-card {
+  position: relative;
+  background-color: var(--header-bg);
+  border: 2.5px solid var(--navy-primary);
+  border-radius: 22px;
+  padding: 22px 32px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+
+.juan-avatar-circle {
+  width: 125px;
+  height: 125px;
+  background-color: var(--avatar-bg);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+
+.juan-avatar-circle i {
+  font-size: 98px;
+  color: var(--navy-primary);
+  transform: translateY(10px);
+}
+
+
+.juan-avatar-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
+}
+
+
+.juan-header-info {
+  flex: 1;
+}
+
+
+.juan-header-info h1 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: var(--navy-primary);
+}
+
+
+.juan-header-line {
+  height: 2px;
+  background-color: var(--royal-accent);
+  margin: 8px 0 10px 0;
+  width: 95%;
+}
+
+
+.juan-header-info p {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--royal-accent);
+}
+
+
+.juan-sparkle-lines {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  width: 32px;
+  height: 32px;
+}
+
+
+.juan-sparkle-lines span {
+  position: absolute;
+  background-color: var(--navy-primary);
+  border-radius: 4px;
+}
+
+
+.juan-sparkle-lines span:nth-child(1) {
+  width: 4px;
+  height: 14px;
+  top: 0;
+  left: 6px;
+  transform: rotate(-15deg);
+}
+
+
+.juan-sparkle-lines span:nth-child(2) {
+  width: 4px;
+  height: 16px;
+  top: 4px;
+  left: 18px;
+  transform: rotate(25deg);
+}
+
+
+.juan-sparkle-lines span:nth-child(3) {
+  width: 14px;
+  height: 4px;
+  top: 18px;
+  left: 20px;
+  transform: rotate(-15deg);
+}
+
+
+/* Two-Column Grid Layout */
+.juan-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: 18px;
+}
+
+
+.juan-column-left,
+.juan-column-right {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
+/* Reusable Card Styling */
+.juan-card {
+  border: 2.5px solid var(--navy-primary);
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--card-bg);
+}
+
+
+.juan-card-header {
+  background-color: var(--header-bg);
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.juan-card-header h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--navy-primary);
+}
+
+
+.juan-icon-badge {
+  width: 34px;
+  height: 34px;
+  background-color: var(--navy-primary);
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+}
+
+
+.juan-header-icon-plain {
+  font-size: 1.55rem;
+  color: var(--navy-primary);
+}
+
+
+.juan-card-body {
+  padding: 16px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+
+/* Lined Text Rows */
+.juan-text-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.juan-row-icon {
+  width: 18px;
+  text-align: center;
+  color: var(--navy-primary);
+  font-size: 1rem;
+}
+
+
+.juan-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: var(--royal-accent);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+
+.juan-line-text {
+  width: 100%;
+  border-bottom: 2px solid var(--navy-primary);
+  padding: 3px 2px 5px 2px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--navy-primary);
+}
+
+
+/* Interests Icon Row - Gaming & Billiard */
+.juan-interests-icons {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 18px 16px;
+}
+
+
+.juan-interests-icons i {
+  font-size: 2rem;
+  color: var(--navy-primary);
+}
+
+
+.juan-interests-icons .juan-billiard-icon {
+  width: 34px;
+  height: 34px;
+  color: var(--navy-primary);
+}
+
+
+/* Responsive Adjustment for Mobile */
+@media (max-width: 650px) {
+  .juan-main-grid {
+    grid-template-columns: 1fr;
+  }
+  .juan-header-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .juan-header-line {
+    width: 100%;
+  }
+}

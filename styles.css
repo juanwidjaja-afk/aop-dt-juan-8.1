@@ -1,0 +1,361 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: hwb(61 72% 2%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0062ff;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.eugene {
+  width: 100%;
+  max-width: 1000px;
+  background: #d0ffe2;
+  border: 2px solid #8effb9;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 8px 20px rgba(33, 244, 72, 0.12)
+}
+
+
+.eugene-huang {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 20px;
+}
+
+
+.eugene-fergintius {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.fergintius-huang {
+  min-height: 48px;
+  border: 2px solid #aed1ff;
+  border-radius: 8px;
+  background: linear-gradient(90deg, hsl(224, 100%, 86%), #88aeff);
+  color: #ffffff;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+}
+
+
+.fergintius-huang h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+
+.eugene-h {
+  border: 2px solid #92ffd5;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  flex: 1;
+  background-color: #eefff1;
+}
+
+
+.eugene-f {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+
+.eugene1 {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 3px solid #fff5ba;
+  flex-shrink: 0;
+  background-color: #fff3d5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #1e3a8a;
+  overflow: hidden;
+}
+
+
+.eugene1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.eugene-b {
+  flex: 1;
+  padding: 12px 16px 12px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  clip-path: polygon(14px 0%, 100% 0%, 100% 100%, 14px 100%, 0% 50%);
+  background-color: #e0f2fe;
+}
+
+
+.eugene-i {
+  font-size: 0.9rem;
+  color: #0f172a;
+}
+
+
+.eugene-w {
+  min-height: 40px;
+  border: 2px solid #ecc9f0;
+  border-radius: 6px;
+  background-color: #ffdaf4;
+  padding: 8px 14px;
+  display: flex;
+  align-items: center;
+}
+
+
+.eugene-i h2 {
+  font-size: 0.95rem;
+  color: #0c4a6e;
+}
+
+
+.eugene-t {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.eugene-t p {
+  font-size: 0.92rem;
+  line-height: 1.4;
+  padding: 6px 10px;
+  background-color: #eff6ff;
+  border-radius: 6px;
+  color: #afb253;
+}
+
+
+.eugeneR {
+  border: 2px solid #80b1ff;
+  border-radius: 10px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  background-color: #c6c1ff;
+}
+
+
+.eugeneH {
+  display: flex;
+  gap: 16px;
+}
+
+
+.eugeneSquare {
+  width: 85px;
+  height: 95px;
+  border: 2px solid #38bdf8;
+  border-radius: 8px;
+  flex-shrink: 0;
+  background-color: #b7c4cb;
+  color: #ffffff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+.eugeneSquare img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.eugeneHead {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.eugenesmall {
+  align-self: flex-start;
+  padding: 5px 12px;
+  border-radius: 6px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+
+.eugenedescription {
+  flex: 1;
+  min-height: 55px;
+  border: 1.5px solid #475569;
+  border-radius: 6px;
+  background-color: #334155;
+  padding: 8px 12px;
+  color: #e2e8f0;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+
+.eugene-rightcard {
+  border: 2px solid #334155;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex: 1;
+  background-color: #f1f5f9;
+}
+
+
+.eugene-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.eugene-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.92rem;
+  color: #1e293b;
+}
+
+
+.eugenedot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #2563eb;
+  flex-shrink: 0;
+}
+
+
+.eugene-bar {
+  padding: 4px 10px;
+  align-self: flex-start;
+  border-radius: 4px;
+  background-color: #cbd5e1;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #747679;
+}
+
+
+.eugene-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: auto;
+}
+
+
+.eugene-box:first-child {
+  border: 2px solid #f3b4b4;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #fee2e2;
+  color: #7f1d1d;
+}
+
+
+.eugene-box:first-child .icon {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #dc2626;
+}
+
+
+.eugene-box:last-child {
+  border: 2px solid #a8decc;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #acffd4;
+  color: #064e3b;
+}
+
+
+.eugene-box:last-child .icon {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #059669;
+}
+
+
+.eugene-lines {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.88rem;
+}
+
+
+.eugene-bottom-banner {
+  min-height: 110px;
+  border: 2px solid #9ea2ae;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #8ca9ff, #cedcff);
+  color: #ffffff;
+  padding: 18px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+}
+
+
+.eugene-bottom-banner h2 {
+  font-size: 1.15rem;
+}
+
+
+.eugene-bottom-banner p {
+  font-size: 0.95rem;
+  color: #dbeafe;
+}
+
